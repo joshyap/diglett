@@ -1,8 +1,10 @@
 /* inspo: http://4.bp.blogspot.com/-lr-lQIl801g/UvHgu_WG68I/AAAAAAAABzo/JonGrnljxPU/s1600/free_diglett_pokemon_vector_by_emerald_stock-d6tjzzx.png */
 
 :root {
-    --background-color: #008000;
+    --background-color: pink;
     --diglett: #94673F;
+    --eye: black;
+    --nose: #D8777C;
 }
 
 body, html {
@@ -13,8 +15,9 @@ body, html {
 }
 
 .box {
-    position: relative;
+    position: relative;    
     margin: auto;
+    margin-top: 10vh;
     display: block;
     /* margin-top: 30vh; */
     width: 80%;
@@ -38,11 +41,51 @@ body, html {
 }
 
 .head {
-    
-        border-radius: 100% 100% 20% 20%;
-        width: 200px;
-        height: 200px; 
-        background: var(--diglett);
-        /* width and height can be anything, as long as they're equal */
-    
+    border-radius: 50% 50% 0% 0%;
+    width: 250px;
+    height: 300px; 
+    background: var(--diglett);
+    position: relative;
+}
+
+.lefteye {
+    border-radius: 2em / 4em;
+    width: 18px;
+    height: 70px; 
+    z-index: 2;
+    background: var(--eye);
+    position: absolute;
+    top: -50%;
+    right: 0;
+    bottom: 0;
+    left: -25%;
+    margin: auto;
+}
+
+.righteye {
+    border-radius: 2em / 4em;
+    width: 18px;
+    height: 70px; 
+    z-index: 2;
+    background: var(--eye);
+    position: absolute;
+    top: -50%;
+    right: -25%;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.nose {
+    z-index: 2;
+    background: var(--nose);
+    border-radius: 50%;
+    width: 80px;
+    height: 50px; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
 }
