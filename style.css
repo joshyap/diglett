@@ -1,0 +1,48 @@
+/* inspo: http://4.bp.blogspot.com/-lr-lQIl801g/UvHgu_WG68I/AAAAAAAABzo/JonGrnljxPU/s1600/free_diglett_pokemon_vector_by_emerald_stock-d6tjzzx.png */
+
+:root {
+    --background-color: #008000;
+    --diglett: #94673F;
+}
+
+body, html {
+    background: var(--background-color);
+    /* display: grid;
+    align-items: center;
+    justify-content: center; */
+}
+
+.box {
+    position: relative;
+    margin: auto;
+    display: block;
+    /* margin-top: 30vh; */
+    width: 80%;
+    height: 80%;
+    background: none;
+
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    /* width: 300px;
+    height: 300px;
+    display: grid;
+    align-items: center;
+    justify-content: center; */
+ 
+    
+    background: white;
+    border: solid 4px red;
+}
+
+.head {
+    
+        border-radius: 100% 100% 20% 20%;
+        width: 200px;
+        height: 200px; 
+        background: var(--diglett);
+        /* width and height can be anything, as long as they're equal */
+    
+}
