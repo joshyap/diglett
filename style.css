@@ -2,43 +2,29 @@
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations */
 
 :root {
-    --background-color: pink;
+    --background-color: #5FB2F6;
     --diglett: #94673F;
     --eye: black;
     --nose: #D8777C;
+    --dirt: #A58960;
 }
 
 body, html {
     background: var(--background-color);
-    /* display: grid;
-    align-items: center;
-    justify-content: center; */
+    overflow: hidden;
 }
 
 .box {
     position: relative;    
     margin: auto;
     margin-top: 10vh;
-    display: block;
-    /* margin-top: 30vh; */
+    display: block;    
     width: 80%;
     height: 80%;
     background: none;
-
-
     display: grid;
     align-items: center;
     justify-content: center;
-
-    /* width: 300px;
-    height: 300px;
-    display: grid;
-    align-items: center;
-    justify-content: center; */
- 
-    
-    /* background: white; */
-    border: solid 4px red;
 }
 
 .head {
@@ -59,11 +45,11 @@ body, html {
     position: absolute;
     background: var(--diglett);
     width: 250px;
-    height: 200px;
+    height: 300px;
     margin: auto;
     top: 0;
     right: 0;
-    bottom: -65%;
+    bottom: -95%;
     left: 0;      
 }
 
@@ -108,3 +94,19 @@ body, html {
     left: 0;
     margin: auto;
 }
+
+.dirt {
+    width: 100vw; 
+    height: 30vh; 
+    /* border-left: 300px solid transparent;
+    border-right: 300px solid transparent;    
+    border-bottom: 300px solid var(--dirt); */
+    background: var(--dirt);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: -70%;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+  }
