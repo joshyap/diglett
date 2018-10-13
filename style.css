@@ -98,9 +98,6 @@ body, html {
 .dirt {
     width: 100vw; 
     height: 30vh; 
-    /* border-left: 300px solid transparent;
-    border-right: 300px solid transparent;    
-    border-bottom: 300px solid var(--dirt); */
     background: var(--dirt);
     position: absolute;
     top: 0;
