@@ -28,9 +28,9 @@ body, html {
 }
 
 .head {
-    border-radius: 50% 50% 0% 0%;
-    width: 250px;
-    height: 300px; 
+    border-radius: 45% 45% 0% 0%;    
+    height: 35vh;
+    width: 15vw;
     background: var(--diglett);
     position: relative;    
     bottom: -100;        
@@ -38,14 +38,14 @@ body, html {
 }
 
 .head:hover {
-    bottom: 80;
+    bottom: 10vh;
 }
 
 .body {
     position: absolute;
     background: var(--diglett);
-    width: 250px;
-    height: 300px;
+    height: 35vh;
+    width: 15vw;
     margin: auto;
     top: 0;
     right: 0;
@@ -55,8 +55,8 @@ body, html {
 
 .lefteye {
     border-radius: 2em / 4em;
-    width: 18px;
-    height: 65px; 
+    width: 1.2vw;
+    height: 8vh; 
     z-index: 2;
     background: var(--eye);
     position: absolute;
@@ -69,8 +69,8 @@ body, html {
 
 .righteye {
     border-radius: 2em / 4em;
-    width: 18px;
-    height: 65px; 
+    width: 1.2vw;
+    height: 8vh; 
     z-index: 2;
     background: var(--eye);
     position: absolute;
@@ -85,8 +85,8 @@ body, html {
     z-index: 2;
     background: var(--nose);
     border-radius: 80%;
-    width: 75px;
-    height: 50px; 
+    width: 5vw;
+    height: 6vh; 
     position: absolute;
     top: 0;
     right: 0;
